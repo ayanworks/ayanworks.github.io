@@ -4,7 +4,7 @@
     {
       "id": "did:web:ayanworks.github.io:iec:0522012345#oid4vci-offer",
       "type": "OID4VCICredentialOffer",
-      "serviceEndpoint": "https://affront-king-catalyze.ngrok-free.dev/v1/entity-wallet/wallets/EWAL_363bb7da-3737-44b8-b97a-7cbdfc14d8c0/credential-offers"
+      "serviceEndpoint": "https://affront-king-catalyze.ngrok-free.dev/v1/entity-wallet/iec/0522012345/credential-offers"
     }
   ],
   "@context": [
