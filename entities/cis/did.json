@@ -15,7 +15,7 @@
             "id": "did:web:ayanworks.github.io:entities:cis#key-1",
             "type": "Ed25519VerificationKey2018",
             "controller": "did:web:ayanworks.github.io:entities:cis",
-            "publicKeyBase58": "HduM6gMkF5BK9Wg3pcQ9m3K7PfLx5XanWUTy8dUiwCSq"
+            "publicKeyBase58": "DMj8VuW57Bja6xkSQM2euQV7GqR58sovNcPbsmYWkdem"
         }
     ]
 }
