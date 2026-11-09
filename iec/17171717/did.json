@@ -1,0 +1,21 @@
+{
+  "id": "did:web:ayanworks.github.io:iec:17171717",
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/ed25519-2018/v1"
+  ],
+  "authentication": [
+    "did:web:ayanworks.github.io:iec:17171717#key-1"
+  ],
+  "assertionMethod": [
+    "did:web:ayanworks.github.io:iec:17171717#key-1"
+  ],
+  "verificationMethod": [
+    {
+      "id": "did:web:ayanworks.github.io:iec:17171717#key-1",
+      "type": "Ed25519VerificationKey2018",
+      "controller": "did:web:ayanworks.github.io:iec:17171717",
+      "publicKeyBase58": "6jYcKRMtiLH2hfGdXDgQhTQkBH5t2ALf93ByAhkEWTmr"
+    }
+  ]
+}
