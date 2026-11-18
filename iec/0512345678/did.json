@@ -1,0 +1,32 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:ayanworks.github.io:iec:0512345678",
+  "verificationMethod": [
+    {
+      "id": "did:web:ayanworks.github.io:iec:0512345678#key-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:ayanworks.github.io:iec:0512345678",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "kid": "FtHTdBbIuR8SiKMShYVoVA4fB4KwcaBXoYGwum30mGg",
+        "n": "7ZqYPb8BoxvaarQx_Edg1QUqAdZH4G4D0L1LrJCCaNYXM8O7T0k7A6Xo6u_mlTjfmDOKNBcFrN26LePUFUYbICLC8E4h-XjXmirxSjb6kaz71JWNH5v2ieSwJLsFB-A6qynBhPXTlS5YZ9dLUjJn9pqBvZUAPCYADANFC7Y9hNc3JK_WPg0CVMB010bCYG84Jf0qRLSI2yV9ozelB7AkMSZ3w_kCCNQxh4AsiyMQ6VXkgqV6RZDvv6Oh-EHqnKqJs83XMx63FJrf_MQeRQ8GuiohIlnZVKYJc4_AotOqO6j1pI1V4Qw4BOT8KGqCrtgQU337z32ZV1Xu4lovCICypw",
+        "e": "AQAB"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:ayanworks.github.io:iec:0512345678#key-1"
+  ],
+  "assertionMethod": [
+    "did:web:ayanworks.github.io:iec:0512345678#key-1"
+  ],
+  "capabilityInvocation": [
+    "did:web:ayanworks.github.io:iec:0512345678#key-1"
+  ],
+  "capabilityDelegation": [
+    "did:web:ayanworks.github.io:iec:0512345678#key-1"
+  ]
+}

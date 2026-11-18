@@ -1,0 +1,33 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:ayanworks.github.io:dgft",
+  "verificationMethod": [
+    {
+      "id": "did:web:ayanworks.github.io:dgft#key-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:ayanworks.github.io:dgft",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "kid": "024dc5a1-4119-444a-80e1-37862dd66bab",
+        "crv": "P-256",
+        "x": "D4-lE9p83fPwzUq_5BEFVqgBlvUmqa6t0EDsFkphMVk",
+        "y": "PTNN3tP4SukC7WnW85Il8P9pDmPPkm_w6mJX6LN_oKo"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:ayanworks.github.io:dgft#key-1"
+  ],
+  "assertionMethod": [
+    "did:web:ayanworks.github.io:dgft#key-1"
+  ],
+  "capabilityInvocation": [
+    "did:web:ayanworks.github.io:dgft#key-1"
+  ],
+  "capabilityDelegation": [
+    "did:web:ayanworks.github.io:dgft#key-1"
+  ]
+}
