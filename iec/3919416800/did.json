@@ -1,0 +1,28 @@
+{
+    "id": "did:web:ayanworks.github.io:iec:3919416800",
+    "service": [
+      {
+        "id": "did:web:ayanworks.github.io:iec:3919416800#oid4vci-offer",
+        "type": "OID4VCICredentialOffer",
+        "serviceEndpoint": "https://affront-king-catalyze.ngrok-free.dev/v1/entity-wallet/iec/3919416800/credential-offers"
+      }
+    ],
+    "@context": [
+      "https://www.w3.org/ns/did/v1",
+      "https://w3id.org/security/suites/ed25519-2018/v1"
+    ],
+    "authentication": [
+      "did:web:ayanworks.github.io:iec:3919416800#key-1"
+    ],
+    "assertionMethod": [
+      "did:web:ayanworks.github.io:iec:3919416800#key-1"
+    ],
+    "verificationMethod": [
+      {
+        "id": "did:web:ayanworks.github.io:iec:3919416800#key-1",
+        "type": "Ed25519VerificationKey2018",
+        "controller": "did:web:ayanworks.github.io:iec:3919416800",
+        "publicKeyBase58": "G8vQAvJmepvhzctV5vriibCSWrtk2Ux69PPkVPesuQFt"
+      }
+    ]
+  }
