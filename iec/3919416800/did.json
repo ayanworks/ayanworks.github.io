@@ -1,28 +1,38 @@
 {
-    "id": "did:web:ayanworks.github.io:iec:3919416800",
-    "service": [
-      {
-        "id": "did:web:ayanworks.github.io:iec:3919416800#oid4vci-offer",
-        "type": "OID4VCICredentialOffer",
-        "serviceEndpoint": "https://affront-king-catalyze.ngrok-free.dev/v1/entity-wallet/iec/3919416800/credential-offers"
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/ed25519-2018/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:ayanworks.github.io:iec:3919416800",
+  "service": [
+    {
+      "id": "did:web:ayanworks.github.io:iec:3919416800#oid4vci-offer",
+      "type": "OID4VCICredentialOffer",
+      "serviceEndpoint": "https://affront-king-catalyze.ngrok-free.dev/v1/entity-wallet/iec/3919416800/credential-offers"
+    }
+  ],
+  "authentication": [
+    "did:web:ayanworks.github.io:iec:3919416800#dsc-8EFj2an3JqsHPwbX"
+  ],
+  "assertionMethod": [
+    "did:web:ayanworks.github.io:iec:3919416800#dsc-8EFj2an3JqsHPwbX"
+  ],
+  "verificationMethod": [
+    {
+      "id": "did:web:ayanworks.github.io:iec:3919416800#dsc-8EFj2an3JqsHPwbX",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:ayanworks.github.io:iec:3919416800",
+      "publicKeyJwk": {
+        "e": "AQAB",
+        "n": "4yu5oq3Id_4APkIGodj6uk8qlYg-J09II-2pzW_EWLdjl4L0HM8g9GUBiiBkjqeRILr_QEMAzzp2rzjEfpCDedG2UMSOy003Q_0krJiPvHpGK-ik6vGpkXHYpmYN8Dewm7zL-VleodsNVraUfu-yGXN0NF3X94zgUuMzUEBDlXjmC5lUEuOOkt0Ea5mrD4JOKEl5KJmt6XbNLlMCjSqwEAhcf0yOgk8tHkCCJqXGOrCnrZ4CixooVy9Zk3z8qDhiBgeiFtCmgEHr50SvQtkUEmm0CKtoxk1MF8FjYnly8lRcTSLsXn0pQiBVRMaGYRM3vnFHlhW-vbnHtiZPVvh1Ow",
+        "kty": "RSA",
+        "x5c": [
+          "MIICxDCCAmqgAwIBAgIUMnHZ3sS6iojUJToeUUatlYno4OMwCgYIKoZIzj0EAwIwQTELMAkGA1UEBhMCSU4xFDASBgNVBAoMC0RlbW8gRFNDIENBMRwwGgYDVQQDDBNEZW1vIERTQyBJc3N1aW5nIENBMB4XDTI2MTExOTExMDgxOVoXDTI3MTExOTExMDgxOVowWTELMAkGA1UEBhMCSU4xJDAiBgNVBAoMG05pbGdpcmkgVGVhIEV4cG9ydHMgUHZ0IEx0ZDEkMCIGA1UEAwwbTmlsZ2lyaSBUZWEgRXhwb3J0cyBQdnQgTHRkMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4yu5oq3Id/4APkIGodj6uk8qlYg+J09II+2pzW/EWLdjl4L0HM8g9GUBiiBkjqeRILr/QEMAzzp2rzjEfpCDedG2UMSOy003Q/0krJiPvHpGK+ik6vGpkXHYpmYN8Dewm7zL+VleodsNVraUfu+yGXN0NF3X94zgUuMzUEBDlXjmC5lUEuOOkt0Ea5mrD4JOKEl5KJmt6XbNLlMCjSqwEAhcf0yOgk8tHkCCJqXGOrCnrZ4CixooVy9Zk3z8qDhiBgeiFtCmgEHr50SvQtkUEmm0CKtoxk1MF8FjYnly8lRcTSLsXn0pQiBVRMaGYRM3vnFHlhW+vbnHtiZPVvh1OwIDAQABo10wWzAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIHgDAdBgNVHQ4EFgQUUgSCLP6OdHIy97hKsIvaHvi72MYwHwYDVR0jBBgwFoAUzZagB1rin1A3QDBebWrNvdkqFbIwCgYIKoZIzj0EAwIDSAAwRQIhALEWaqI3B/S+uJe7uneLwG8yR2LFQ6HohCfnxjDiiSw1AiAtF0zkK/7MFrxFPiQJ0pfkECgNMqvbVgQpuY8HOhAZoQ==",
+          "MIIB5zCCAY2gAwIBAgIUekDVjtd14eMaLe8sA8GmWkJ7vQowCgYIKoZIzj0EAwIwPjELMAkGA1UEBhMCSU4xFDASBgNVBAoMC0RlbW8gRFNDIENBMRkwFwYDVQQDDBBEZW1vIERTQyBSb290IENBMB4XDTI2MTExOTExMDgxOFoXDTI3MTExOTExMDgxOFowQTELMAkGA1UEBhMCSU4xFDASBgNVBAoMC0RlbW8gRFNDIENBMRwwGgYDVQQDDBNEZW1vIERTQyBJc3N1aW5nIENBMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEVtfn/7CWMC0q31z4XZDrRVc8UGZIL2g41WrvMDwoif8R/9b/klOsJlMvwofLpmsLcrMY7q5CNiBJAoLn12rBtKNmMGQwEgYDVR0TAQH/BAgwBgEB/wIBADAOBgNVHQ8BAf8EBAMCAQYwHQYDVR0OBBYEFM2WoAda4p9QN0AwXm1qzb3ZKhWyMB8GA1UdIwQYMBaAFJYcMB8GjE84LxMN5HLqqzvOxjZPMAoGCCqGSM49BAMCA0gAMEUCIBxXYOPWCa00ZjTD1c6zziiUBfECDtswaS5h7AWVI2ldAiEAtzDuS3HyRuTQQMRZrvdpKDktUJlIuq2X/ZsNfjIJ0W8=",
+          "MIIBwDCCAWagAwIBAgIUCyZiO2TYPxUh7BTYJuP8BpDSHSYwCgYIKoZIzj0EAwIwPjELMAkGA1UEBhMCSU4xFDASBgNVBAoMC0RlbW8gRFNDIENBMRkwFwYDVQQDDBBEZW1vIERTQyBSb290IENBMB4XDTI2MTExOTExMDgxOFoXDTI3MTExOTExMDgxOFowPjELMAkGA1UEBhMCSU4xFDASBgNVBAoMC0RlbW8gRFNDIENBMRkwFwYDVQQDDBBEZW1vIERTQyBSb290IENBMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEgoYQ3uDznkzmpXRVLZnvrI6gN2Q1tBVUCGwIV1SziXrxGKK5sh81xzTtCxZ8L6RaBKFVz9wEfj+YCbaobdWA1KNCMEAwDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMCAQYwHQYDVR0OBBYEFJYcMB8GjE84LxMN5HLqqzvOxjZPMAoGCCqGSM49BAMCA0gAMEUCIB+0IIj7iZ3bF8SFbJPUoH6w1DdZWIr0/9JGV99GjIxoAiEAoq1BrxJH89xBpgovO8u+17/V7Eq+zl1nDjGPjqd2+0w="
+        ]
       }
-    ],
-    "@context": [
-      "https://www.w3.org/ns/did/v1",
-      "https://w3id.org/security/suites/ed25519-2018/v1"
-    ],
-    "authentication": [
-      "did:web:ayanworks.github.io:iec:3919416800#key-1"
-    ],
-    "assertionMethod": [
-      "did:web:ayanworks.github.io:iec:3919416800#key-1"
-    ],
-    "verificationMethod": [
-      {
-        "id": "did:web:ayanworks.github.io:iec:3919416800#key-1",
-        "type": "Ed25519VerificationKey2018",
-        "controller": "did:web:ayanworks.github.io:iec:3919416800",
-        "publicKeyBase58": "G8vQAvJmepvhzctV5vriibCSWrtk2Ux69PPkVPesuQFt"
-      }
-    ]
-  }
+    }
+  ]
+}
